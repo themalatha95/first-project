@@ -1,0 +1,85 @@
+.header {
+  background-color: #999999;
+  padding: 8px;
+  text-align: center;
+}
+
+.navbar {
+  list-style: none;
+}
+.navbar li {
+  display: inline-block;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 0px 20px;
+  border-left: 1px solid#5a5a5a;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.banner {
+  height: 208px;
+  background-color: #dcdcdc;
+  margin-bottom: 30px;
+}
+.column {
+  text-align: justify;
+  width: 480px;
+  color: #afafaf;
+}
+.card {
+  height: 120px;
+
+  float: left;
+  width: 25%;
+  margin-right: 15px;
+  background-color: #9999;
+}
+.cardsection {
+  margin-bottom: 50px;
+}
+.footer {
+  background-color: #ededed;
+  padding: 10px;
+  margin-top: 20px;
+}
+.footer .container {
+  max-width: 1170px;
+  margin: 0 auto;
+  max-width: 1170px;
+  justify-content: center;
+  display: grid;
+}
+.container {
+  max-width: 1170px;
+
+  margin: 0 auto;
+}
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) * -0.5);
+  margin-left: calc(var(--bs-gutter-x) * -0.5);
+  justify-content: center;
+}
+
+.ctype {
+  width: 25%;
+
+  background-color: #9999;
+  height: 200px;
+  margin: 20px;
+}
+.btn {
+  background-color: #999999;
+  padding: 10px 100px;
+  font-weight: 500;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+}
